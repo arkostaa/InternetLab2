@@ -1,0 +1,158 @@
+html {
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 1.15;
+}
+* {padding: 0; margin: 0;  box-sizing: border-box;  border-width: 0;  border-style: solid;}
+button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}
+button,[type="button"],[type="reset"],[type="submit"]
+.frame2-container {
+  width: 100%;
+  display: grid;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.frame2-frame2 {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(241, 250, 238, 1);
+}
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  margin-top: 251px;
+  background-color: #1e3b58;
+  color: #ffffff;
+}
+.header {
+  background-color: #377dac;
+  padding: 40px;
+  text-align: center;
+}
+body {
+  line-height: 1.5;
+  background-color: rgba(241, 250, 238, 1);
+}
+.custom-select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.spisok {
+  margin-top: 100px;
+}
+.spisok h1 {
+  margin-bottom: 50px;
+}
+.number {
+  top: 25px;
+  left: 1702px;
+  color: rgba(33, 33, 33, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 13px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.logoWheels {
+  top: 0px;
+  left: 0px;
+  width: 107px;
+  height: 107px;
+  position: absolute;
+}
+.frame2-rectangle4 {
+  top: 100%;
+  left: 0px;
+  width: 1920px;
+  height: 46px;
+  position: absolute;
+}
+.frame2-text2 {
+  top: 466px;
+  left: 649px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.spisok {
+  display: flex;
+  margin-top: 200px;
+  flex-direction: column;
+  align-items: center;
+}
+.spisok form {
+  width: 400px ;
+  margin: 0 auto;
+}
+.spisok label {
+  margin-bottom: 20px;
+}
+#rentalForm label {
+  margin-bottom: 20px;
+}
+.spisok select,
+.spisok input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+.spisok input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.submit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+.submit-button:hover {
+  background-color: #45a049;
+}
+input[type="submit"] {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #318337;
+}
+input[type="submit"]:active {
+  background-color: #584b4b;
+}
